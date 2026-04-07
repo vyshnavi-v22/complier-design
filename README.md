@@ -48,8 +48,6 @@ Implemented using Python.
 Displays the LL(1) parsing table.
 
 **Lab 3:ELIMINATION-OF-AMBIGUITY**
-# Elimination of Ambiguity, Left Recursion and Left Factoring
-
 ## Aim
 To eliminate ambiguity, left recursion, and perform left factoring in a given grammar.
 
@@ -68,9 +66,7 @@ Implemented using Python.
 ## Output
 Displays the modified grammar after eliminating left recursion and left factoring.
 
-**4.NFA-TO-DFA:**
-# NFA to DFA Conversion
-
+**Lab 4:NFA-TO-DFA**
 ## Aim
 To convert a given Non-Deterministic Finite Automaton (NFA) into an equivalent Deterministic Finite Automaton (DFA).
 
@@ -90,8 +86,6 @@ Implemented using Python.
 The program displays DFA states, transitions, and final states.
 
 **Lab 5:FIRST-AND-FOLLOW**
-# FIRST and FOLLOW Computation
-
 ## Aim
 To compute FIRST and FOLLOW sets for a given context-free grammar.
 
@@ -111,8 +105,6 @@ Implemented using Python.
 Displays FIRST and FOLLOW sets for the grammar.
 
 **Lab 6:REGULAR-EXPRESSION-TO-NFA**
-## Regular Expression to NFA
-
 ### Aim
 To convert a given Regular Expression into a Non-Deterministic
 Finite Automaton (NFA).
