@@ -1,0 +1,19 @@
+# Lab 7: Shift Reduce Parsing
+
+## Aim
+To implement Shift Reduce Parsing using Python.
+
+## Description
+Shift Reduce Parser is a bottom-up parsing technique used in compiler design.
+
+## Algorithm
+1. Shift input symbols into stack
+2. Reduce using grammar rules
+3. Accept if stack contains start symbol
+
+## How to Run
+1. Open Codespaces
+2. Run: python3 shift_reduce.py
+
+## Output
+Displays shift and reduce operations step by step.
