@@ -135,4 +135,228 @@ an equivalent NFA.
 Python
 
 ### Output
-Displays start state, accept state, and NFA transitions.
+
+**Lab 7: Shift Reduce Parsing**
+## Aim
+To implement Shift Reduce Parsing using Python.
+
+## Description
+Shift Reduce Parser is a bottom-up parsing technique used in compiler design.
+
+## Algorithm
+1. Shift input symbols into stack
+2. Reduce using grammar rules
+3. Accept if stack contains start symbol
+
+## How to Run
+1. Open Codespaces
+2. Run: python3 shift_reduce.py
+
+## Output
+Displays shift and reduce operations step by step.Displays start state, accept state, and NFA transitions.
+
+ **Lab 8: LEADING and TRAILING**
+## Aim
+To compute LEADING and TRAILING of a grammar.
+
+## Description
+This program finds the starting and ending terminals for each non-terminal.
+
+## Output
+Displays LEADING and TRAILING sets.
+
+ **Lab 9: LR(0) Items Computation**
+## Aim
+To compute LR(0) items for a given grammar.
+
+## Description
+This program generates LR(0) items by inserting a dot (.) at all possible positions in each production.
+
+## Algorithm
+1. Take grammar productions
+2. For each production:
+   - Insert dot at every position
+3. Display all LR(0) items
+
+## Input
+Grammar:
+E->E+T
+E->T
+T->T*F
+T->F
+F->(E)
+F->i
+
+## Output
+All possible LR(0) items
+
+## Result
+Successfully generated LR(0) items.
+
+# Lab 10: Intermediate Code Generation (Postfix & Prefix)
+## Aim
+To convert infix expression into postfix and prefix expressions.
+
+## Description
+This program converts infix expressions using stack-based method.
+
+## Algorithm
+1. Use stack for operators
+2. Follow precedence rules
+3. Convert infix to postfix
+4. Reverse logic for prefix
+
+## Input
+Infix expression (e.g., A+B*C)
+
+## Output
+Postfix and Prefix expressions
+
+## Result
+Successfully converted infix to postfix and prefix.
+
+**Lab 11: Intermediate Code Generation**
+## Aim
+To generate Quadruple, Triple and Indirect Triple representations.
+
+## Description
+This program converts an expression into intermediate code forms.
+
+## Algorithm
+1. Identify operators and operands
+2. Apply precedence rules
+3. Generate temporary variables
+4. Form Quadruple, Triple and Indirect Triple
+
+## Input
+Expression (e.g., A+B*C)
+
+## Output
+Quadruple, Triple and Indirect Triple
+
+## Result
+Successfully generated intermediate code representations.
+
+**Lab 12: Simple Code Generator**
+## Aim
+To generate intermediate code from an expression.
+
+## Description
+This program converts an infix expression into three-address code.
+
+## Algorithm
+1. Identify operators and operands
+2. Apply precedence rules
+3. Generate temporary variables
+4. Produce intermediate code
+
+## Input
+Expression (e.g., A+B*C)
+
+## Output
+Three-address code
+
+## Result
+Successfully generated intermediate code.
+
+**Lab 13: Implementation of Directed Acyclic Graph (DAG)**
+## Aim
+To construct a Directed Acyclic Graph (DAG) for a given expression and perform basic code optimization.
+
+## Objective
+To identify common subexpressions and eliminate redundant computations using DAG.
+
+## Theory
+A Directed Acyclic Graph (DAG) is a graph with no cycles. It is used in compiler design for optimizing expressions by representing computations efficiently.
+
+- Each node represents an operator or operand.
+- Leaf nodes represent operands.
+- Internal nodes represent operators.
+- Common subexpressions are stored only once and reused.
+
+## Algorithm
+1. Read the input expression.
+2. Convert the infix expression into postfix form.
+3. Initialize an empty stack.
+4. For each symbol in postfix expression:
+   - If operand → push to stack.
+   - If operator → pop two operands and create a node.
+5. Before creating a node, check if the same node already exists:
+   - If yes → reuse it.
+   - If no → create a new node.
+6. Store all nodes in DAG.
+7. Display DAG nodes.
+
+## Input
+Arithmetic expression (e.g., A+B*C)
+
+## Output
+DAG representation showing operators and operands.
+
+## Example
+Input:
+A+B*C
+
+Output:
+('*', 'B', 'C')
+('+', 'A', (B * C))
+
+## Result
+Successfully constructed a Directed Acyclic Graph and optimized the expression by eliminating common subexpressions.
+
+## Applications
+- Code optimization
+- Common subexpression elimination
+  
+  **Lab 14: Global Data Flow Analysis**
+## Aim
+To perform global data flow analysis using reaching definitions.
+
+## Description
+This program computes GEN, KILL, IN, and OUT sets for a set of statements.
+
+## Theory
+Data flow analysis tracks how data moves through a program. 
+Reaching definitions determine which assignments reach a program point.
+
+## Algorithm
+1. Read program statements
+2. Compute GEN and KILL sets
+3. Initialize IN and OUT sets
+4. Iterate until no changes occur
+5. Display results
+
+## Input
+Set of assignment statements
+
+## Output
+GEN, KILL, IN and OUT sets
+
+## Result
+Successfully performed global data flow analysis.
+
+**Lab 15: Storage Allocation Strategy (Stack Allocation)**
+## Aim
+To implement stack storage allocation.
+
+## Description
+This program demonstrates stack allocation using push and pop operations.
+
+## Theory
+Stack allocation follows Last In First Out (LIFO) principle. 
+It is used for managing function calls and local variables.
+
+## Algorithm
+1. Initialize empty stack
+2. Perform push operation
+3. Perform pop operation
+4. Display stack contents
+
+## Input
+User choice and values
+
+## Output
+Stack operations results
+
+## Result
+Successfully implemented stack allocation.
