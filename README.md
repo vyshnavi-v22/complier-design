@@ -124,7 +124,7 @@ Python
 
 ### Output
 
-**Lab 7: Shift Reduce Parsing**
+**Lab 7: SHIFT REDUCE PARSING**
 ## Aim
 To implement Shift Reduce Parsing using Python.
 
@@ -143,7 +143,7 @@ Shift Reduce Parser is a bottom-up parsing technique used in compiler design.
 ## Output
 Displays shift and reduce operations step by step.Displays start state, accept state, and NFA transitions.
 
- **Lab 8: LEADING and TRAILING**
+**Lab 8: LEADING and TRAILING**
 ## Aim
 To compute LEADING and TRAILING of a grammar.
 
@@ -153,7 +153,7 @@ This program finds the starting and ending terminals for each non-terminal.
 ## Output
 Displays LEADING and TRAILING sets.
 
- **Lab 9: LR(0) Items Computation**
+**Lab 9: LR(0) ITEMS COMPUTATION**
 ## Aim
 To compute LR(0) items for a given grammar.
 
@@ -181,7 +181,7 @@ All possible LR(0) items
 ## Result
 Successfully generated LR(0) items.
 
-# Lab 10: Intermediate Code Generation (Postfix & Prefix)
+**Lab 10: INTERMEDIATE CODE GENERATION(Postfix & Prefix)**
 ## Aim
 To convert infix expression into postfix and prefix expressions.
 
@@ -203,7 +203,7 @@ Postfix and Prefix expressions
 ## Result
 Successfully converted infix to postfix and prefix.
 
-**Lab 11: Intermediate Code Generation**
+**Lab 11: INTERMEDIATE CODE GENERATION**
 ## Aim
 To generate Quadruple, Triple and Indirect Triple representations.
 
@@ -225,7 +225,7 @@ Quadruple, Triple and Indirect Triple
 ## Result
 Successfully generated intermediate code representations.
 
-**Lab 12: Simple Code Generator**
+**Lab 12: SIMPLE CODE GENERATOR**
 ## Aim
 To generate intermediate code from an expression.
 
@@ -247,7 +247,7 @@ Three-address code
 ## Result
 Successfully generated intermediate code.
 
-**Lab 13: Implementation of Directed Acyclic Graph (DAG)**
+**Lab 13: IMPLEMENTATION OF DIRECTED ACYCLIC GRAPH (DAG)**
 ## Aim
 To construct a Directed Acyclic Graph (DAG) for a given expression and perform basic code optimization.
 
@@ -296,7 +296,7 @@ Successfully constructed a Directed Acyclic Graph and optimized the expression b
 - Code optimization
 - Common subexpression elimination
   
-  **Lab 14: Global Data Flow Analysis**
+**Lab 14: GLOBAL DATA FLOW ANALYSIS**
 ## Aim
 To perform global data flow analysis using reaching definitions.
 
@@ -323,7 +323,7 @@ GEN, KILL, IN and OUT sets
 ## Result
 Successfully performed global data flow analysis.
 
-**Lab 15: Storage Allocation Strategy (Stack Allocation)**
+**Lab 15: STORAGE ALLOCATION STRATEGY (Stack Allocation)**
 ## Aim
 To implement stack storage allocation.
 
