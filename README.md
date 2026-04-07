@@ -4,9 +4,7 @@ CSE E
 
 RA2311003050282
 
-**1.LEXICAL-ANALYSER:**
-# Lexical Analyzer using Python
-
+**Lab 1:LEXICAL-ANALYSER**
 ## Description
 This project is a simple lexical analyzer implemented using Python.  
 It identifies tokens such as keywords, identifiers, operators, separators, and numbers from the given source code.
@@ -36,9 +34,7 @@ It identifies tokens such as keywords, identifiers, operators, separators, and n
 ## Output
 The output is displayed in the terminal showing token type and value.
 
-**2.PARSING-TABLE:**
-# Parsing Table Construction
-
+**Lab 2:PARSING-TABLE**
 ## Aim
 To construct an LL(1) parsing table for a given grammar.
 
@@ -51,7 +47,7 @@ Implemented using Python.
 ## Output
 Displays the LL(1) parsing table.
 
-**3.ELIMINATION-OF-AMBIGUITY:**
+**Lab 3:ELIMINATION-OF-AMBIGUITY**
 # Elimination of Ambiguity, Left Recursion and Left Factoring
 
 ## Aim
@@ -93,7 +89,7 @@ Implemented using Python.
 ## Output
 The program displays DFA states, transitions, and final states.
 
-**5.FIRST-AND-FOLLOW:**
+**Lab 5:FIRST-AND-FOLLOW**
 # FIRST and FOLLOW Computation
 
 ## Aim
@@ -114,7 +110,7 @@ Implemented using Python.
 ## Output
 Displays FIRST and FOLLOW sets for the grammar.
 
-**6.REGULAR-EXPRESSION-TO-NFA:**
+**Lab 6:REGULAR-EXPRESSION-TO-NFA**
 ## Regular Expression to NFA
 
 ### Aim
